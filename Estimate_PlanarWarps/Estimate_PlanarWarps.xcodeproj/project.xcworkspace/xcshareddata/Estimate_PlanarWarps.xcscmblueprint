@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F21D1DCE4F4CF9FC65464B5DD04B9CFA99AD4362",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F2F968EF04C3E1CE3FD3B36C787C1B2DD9DD7F33" : 9223372036854775807,
+    "94EBC4634033593D7A2CB7C051EDBBE410808B1E" : 9223372036854775807,
+    "F21D1DCE4F4CF9FC65464B5DD04B9CFA99AD4362" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "848F2A2F-4F85-4C94-AA4E-466ECE3B0019",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F2F968EF04C3E1CE3FD3B36C787C1B2DD9DD7F33" : "Temp\/Estimate_PlanarWarps\/",
+    "94EBC4634033593D7A2CB7C051EDBBE410808B1E" : "..",
+    "F21D1DCE4F4CF9FC65464B5DD04B9CFA99AD4362" : "OpenCV-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Estimate_PlanarWarps",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Estimate_PlanarWarps\/Estimate_PlanarWarps.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/r4ghu\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94EBC4634033593D7A2CB7C051EDBBE410808B1E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/r4ghu\/OpenCV-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F21D1DCE4F4CF9FC65464B5DD04B9CFA99AD4362"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/slucey-cs-cmu-edu\/Estimate_PlanarWarps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2F968EF04C3E1CE3FD3B36C787C1B2DD9DD7F33"
+    }
+  ]
+}
