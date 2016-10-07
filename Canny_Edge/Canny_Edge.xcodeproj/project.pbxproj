@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80F54061D3EB57700D47BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F54051D3EB57700D47BF6 /* main.m */; };
+		A80F54091D3EB57700D47BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F54081D3EB57700D47BF6 /* AppDelegate.m */; };
+		A80F540C1D3EB57700D47BF6 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A80F540B1D3EB57700D47BF6 /* ViewController.mm */; };
+		A80F540F1D3EB57700D47BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F540D1D3EB57700D47BF6 /* Main.storyboard */; };
+		A80F54111D3EB57700D47BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80F54101D3EB57700D47BF6 /* Assets.xcassets */; };
+		A80F54141D3EB57700D47BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F54121D3EB57700D47BF6 /* LaunchScreen.storyboard */; };
+		A80F541C1D3EB5FF00D47BF6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80F541B1D3EB5FF00D47BF6 /* opencv2.framework */; };
+		A80F541E1D3EB62F00D47BF6 /* prince_book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A80F541D1D3EB62F00D47BF6 /* prince_book.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A80F54011D3EB57700D47BF6 /* Canny_Edge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canny_Edge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80F54051D3EB57700D47BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80F54071D3EB57700D47BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A80F54081D3EB57700D47BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A80F540A1D3EB57700D47BF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A80F540B1D3EB57700D47BF6 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		A80F540E1D3EB57700D47BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80F54101D3EB57700D47BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80F54131D3EB57700D47BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A80F54151D3EB57700D47BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F541B1D3EB5FF00D47BF6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		A80F541D1D3EB62F00D47BF6 /* prince_book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prince_book.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80F53FE1D3EB57700D47BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F541C1D3EB5FF00D47BF6 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80F53F81D3EB57700D47BF6 = {
+			isa = PBXGroup;
+			children = (
+				A80F541B1D3EB5FF00D47BF6 /* opencv2.framework */,
+				A80F54031D3EB57700D47BF6 /* Canny_Edge */,
+				A80F54021D3EB57700D47BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80F54021D3EB57700D47BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80F54011D3EB57700D47BF6 /* Canny_Edge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80F54031D3EB57700D47BF6 /* Canny_Edge */ = {
+			isa = PBXGroup;
+			children = (
+				A80F54071D3EB57700D47BF6 /* AppDelegate.h */,
+				A80F54081D3EB57700D47BF6 /* AppDelegate.m */,
+				A80F540A1D3EB57700D47BF6 /* ViewController.h */,
+				A80F540B1D3EB57700D47BF6 /* ViewController.mm */,
+				A80F540D1D3EB57700D47BF6 /* Main.storyboard */,
+				A80F54101D3EB57700D47BF6 /* Assets.xcassets */,
+				A80F54121D3EB57700D47BF6 /* LaunchScreen.storyboard */,
+				A80F54151D3EB57700D47BF6 /* Info.plist */,
+				A80F54041D3EB57700D47BF6 /* Supporting Files */,
+			);
+			path = Canny_Edge;
+			sourceTree = "<group>";
+		};
+		A80F54041D3EB57700D47BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80F541D1D3EB62F00D47BF6 /* prince_book.jpg */,
+				A80F54051D3EB57700D47BF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80F54001D3EB57700D47BF6 /* Canny_Edge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80F54181D3EB57700D47BF6 /* Build configuration list for PBXNativeTarget "Canny_Edge" */;
+			buildPhases = (
+				A80F53FD1D3EB57700D47BF6 /* Sources */,
+				A80F53FE1D3EB57700D47BF6 /* Frameworks */,
+				A80F53FF1D3EB57700D47BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canny_Edge;
+			productName = Canny_Edge;
+			productReference = A80F54011D3EB57700D47BF6 /* Canny_Edge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80F53F91D3EB57700D47BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sri Raghu Malireddi";
+				TargetAttributes = {
+					A80F54001D3EB57700D47BF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A80F53FC1D3EB57700D47BF6 /* Build configuration list for PBXProject "Canny_Edge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80F53F81D3EB57700D47BF6;
+			productRefGroup = A80F54021D3EB57700D47BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80F54001D3EB57700D47BF6 /* Canny_Edge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80F53FF1D3EB57700D47BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F54141D3EB57700D47BF6 /* LaunchScreen.storyboard in Resources */,
+				A80F541E1D3EB62F00D47BF6 /* prince_book.jpg in Resources */,
+				A80F54111D3EB57700D47BF6 /* Assets.xcassets in Resources */,
+				A80F540F1D3EB57700D47BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80F53FD1D3EB57700D47BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F540C1D3EB57700D47BF6 /* ViewController.mm in Sources */,
+				A80F54091D3EB57700D47BF6 /* AppDelegate.m in Sources */,
+				A80F54061D3EB57700D47BF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A80F540D1D3EB57700D47BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80F540E1D3EB57700D47BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A80F54121D3EB57700D47BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80F54131D3EB57700D47BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80F54161D3EB57700D47BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80F54171D3EB57700D47BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80F54191D3EB57700D47BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Canny_Edge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sri.iOS.Canny-Edge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A80F541A1D3EB57700D47BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Canny_Edge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sri.iOS.Canny-Edge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80F53FC1D3EB57700D47BF6 /* Build configuration list for PBXProject "Canny_Edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F54161D3EB57700D47BF6 /* Debug */,
+				A80F54171D3EB57700D47BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80F54181D3EB57700D47BF6 /* Build configuration list for PBXNativeTarget "Canny_Edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F54191D3EB57700D47BF6 /* Debug */,
+				A80F541A1D3EB57700D47BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80F53F91D3EB57700D47BF6 /* Project object */;
+}
